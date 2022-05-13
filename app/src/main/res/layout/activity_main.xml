@@ -5,20 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#e3f2e8">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginEnd="13dp"
         android:id="@+id/imageId"/>
     <Button
-        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="69dp"
+        android:background="#FF018786"
+        android:layout_width="270dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
         android:layout_height="wrap_content"
-        android:text="take pic"
+        android:text="Take Your Picture"
         android:onClick="doProcess"/>
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/textId"/>
 
 </LinearLayout>
